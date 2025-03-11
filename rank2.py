@@ -131,11 +131,11 @@ def main():
         features = analyze_chengyu(chengyu)
         
         # 检查是否已有图片
-        features['has_images'] = check_image_exists(chengyu)
+        # features['has_images'] = check_image_exists(chengyu)
         
-        # 如果已有图片，增加得分
-        if features['has_images']:
-            features['visualizable_score'] += 3
+        # # 如果已有图片，增加得分
+        # if features['has_images']:
+        #     features['visualizable_score'] += 3
         
         analyzed_results.append(features)
     
