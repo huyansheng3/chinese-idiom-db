@@ -60,7 +60,7 @@ _short\_text_ 状态码说明
 
 # 北辰API
 
-https://api.txqq.pro/tianyi/LookIdiom.php
+地址：https://api.txqq.pro/tianyi/LookIdiom.php
 
 看图猜成语API
 
@@ -107,7 +107,9 @@ Tips:北辰API技术支持
 ```
 
 
-# ktccy
+# 灵酷API
+
+地址：https://api.ilingku.com/doc/ktccy.html
 
 - API文档
 - 错误码参照
@@ -149,6 +151,8 @@ Tips:北辰API技术支持
 
 
 # 大熊API接口调用平台
+
+地址：http://tool.wyuuu.cn/api/kdioma.php
 
 请求方式：get
 
