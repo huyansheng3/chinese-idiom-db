@@ -1,0 +1,12 @@
+{
+  "name": "chengyu-image-renamer",
+  "version": "1.0.0",
+  "description": "重命名成语图片为UUID格式并保存映射关系",
+  "main": "rename_chengyu_images.js",
+  "scripts": {
+    "start": "node rename_chengyu_images.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+} 
