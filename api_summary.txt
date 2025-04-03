@@ -1,0 +1,724 @@
+请求 1:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=soundConfig&m=aaa_chengyu&sign=d259bf543c8c5778499dd4551dbc117c&ver=1.2.12
+  方法: GET
+  操作: soundConfig
+  状态: 200
+  耗时: 78msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867339433,
+  "data": [
+    {
+      "name": "btnClick",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/btnClick.mp3"
+    },
+    {
+      "name": "changeBox",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/changeBox.mp3"
+    },
+    {
+      "name": "correct",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/correct.mp3"
+    },
+    {
+      "name": "finish",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/finish.mp3"
+    },
+    {
+      "name": "gameTip",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/gameTip.mp3"
+    },
+    {
+      "name": "getEnergy",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/getEnergy.mp3"
+    },
+    {
+      "name": "incorrect",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/incorrect.mp3"
+    },
+    {
+      "name": "levelUp",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/levelUp.mp3"
+    },
+    {
+      "name": "selectWord",
+      "url": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/video/selectWord.mp3"
+    }
+  ]
+}
+
+请求 2:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=aldConfig&m=aaa_chengyu&sign=62c4e14d5d96b02197cbcf5553976b07&ver=1.2.12
+  方法: GET
+  操作: aldConfig
+  状态: 200
+  耗时: 136msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867339509,
+  "data": {
+    "gameLoadDone": [
+      26519,
+      26857
+    ],
+    "clickOneWord": [
+      26519
+    ],
+    "enterOne": [
+      26519,
+      26857
+    ],
+    "oneSecondClickOneWord": [
+      26519,
+      27231
+    ],
+    "oneFinish": [
+      26519,
+      27231,
+      26633,
+      26634
+    ],
+    "enterTwo": [
+      26519
+    ],
+    "twoFinish": [
+      26519
+    ]
+  }
+}
+
+请求 3:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=hotWord&m=aaa_chengyu&sign=60decfe445502180b440a55d76d71f83&ver=1.2.12
+  方法: GET
+  操作: hotWord
+  状态: 200
+  耗时: 93msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867339804,
+  "data": {
+    "isBeta": false
+  }
+}
+
+请求 4:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=guideList&m=aaa_chengyu&sign=15fa6fa9375bfa1afd94fa1e36d9702f&ver=1.2.12
+  方法: GET
+  操作: guideList
+  状态: 200
+  耗时: 70msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867340004,
+  "data": []
+}
+
+请求 5:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=previewLevel&m=aaa_chengyu&sign=2b689365267fa3dcaa7d0217158525c1&ver=1.2.12
+  方法: GET
+  操作: previewLevel
+  状态: 200
+  耗时: 93msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867340144,
+  "data": []
+}
+
+请求 6:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=gameLevel&m=aaa_chengyu&sign=f970afcd4fb4f0721bdc0e5a187f7b3a&level=0&ver=1.2.12
+  方法: GET
+  操作: gameLevel
+  状态: 200
+  耗时: 88msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867345446,
+  "data": {
+    "level": 23,
+    "question": [
+      {
+        "mid": "480430",
+        "id": "3993",
+        "miniapp": "41",
+        "level": "23",
+        "answer": "一败涂地",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-vziuriox.png",
+        "prompt": "____",
+        "sort": "1",
+        "type": "1"
+      },
+      {
+        "mid": "480656",
+        "id": "4407",
+        "miniapp": "41",
+        "level": "23",
+        "answer": "穷困潦倒",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-bqsyycps.png",
+        "prompt": "____",
+        "sort": "0",
+        "type": "1"
+      },
+      {
+        "mid": "482374",
+        "id": "3867",
+        "miniapp": "41",
+        "level": "23",
+        "answer": "穷途末路",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-wvwiqdid.png",
+        "prompt": "____",
+        "sort": "2",
+        "type": "1"
+      }
+    ],
+    "testFriendHost": "https://wq.maimaigou.com/app/index.php?i=41&t=0&v=1.0&from=wxapp&c=entry&a=wxapp&do=getShare&m=aaa_chengyu"
+  }
+}
+
+请求 7:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=login&m=aaa_chengyu&sign=38b4fa2aa37ec25dd8e48f471c126f74
+  方法: GET
+  操作: login
+  状态: 200
+  耗时: 221msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867346296,
+  "data": {
+    "code": 0,
+    "session": {
+      "openId": "oH1oM4xF0paWeEzN5eQ0DsW-M-o8",
+      "skey": "to7Rvpwe7+uxz3/McfGmgQ==",
+      "id": "oH1oM4xF0paWeEzN5eQ0DsW-M-o8",
+      "userId": "862647"
+    },
+    "F2C224D4-2BCE-4C64-AF9F-A6D872000D1A": "1"
+  }
+}
+
+请求 8:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=pass&m=aaa_chengyu&sign=4585eb46337f91f032907cbaffe58788&level=23&passTime=71&code=0f1WWeml2RBwef4MEqol2nxAtb0WWemX
+  方法: GET
+  操作: pass
+  状态: 200
+  耗时: 205msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867381767,
+  "data": {
+    "code": 0,
+    "upgrade": false,
+    "gameLevelInfo": {
+      "level": 22,
+      "question": [
+        {
+          "mid": "480430",
+          "id": "3993",
+          "miniapp": "41",
+          "level": "23",
+          "answer": "一败涂地",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-vziuriox.png",
+          "prompt": "____",
+          "sort": "1",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        },
+        {
+          "mid": "480656",
+          "id": "4407",
+          "miniapp": "41",
+          "level": "23",
+          "answer": "穷困潦倒",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-bqsyycps.png",
+          "prompt": "____",
+          "sort": "0",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        },
+        {
+          "mid": "482374",
+          "id": "3867",
+          "miniapp": "41",
+          "level": "23",
+          "answer": "穷途末路",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-wvwiqdid.png",
+          "prompt": "____",
+          "sort": "2",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        }
+      ],
+      "testFriendHost": ""
+    },
+    "showOffType": "",
+    "idioms": [
+      "一败涂地",
+      "穷困潦倒",
+      "穷途末路"
+    ],
+    "dayPass": "1",
+    "tip": "再过2关即可升级土坯房",
+    "showOff": true,
+    "reward": []
+  }
+}
+
+请求 9:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=uploadFormId&m=aaa_chengyu&sign=b178a1addd94911e4d37e94975528379&formId=requestFormId%3Afail%20deprecated&userId=862647&ver=1.2.12
+  方法: GET
+  操作: uploadFormId
+  状态: 200
+  耗时: 71msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867383596,
+  "data": []
+}
+
+请求 10:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=gameLevel&m=aaa_chengyu&sign=f970afcd4fb4f0721bdc0e5a187f7b3a&level=0&ver=1.2.12
+  方法: GET
+  操作: gameLevel
+  状态: 200
+  耗时: 102msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867384929,
+  "data": {
+    "level": 24,
+    "question": [
+      {
+        "mid": "477853",
+        "id": "7",
+        "miniapp": "41",
+        "level": "24",
+        "answer": "网开一面",
+        "explanation": "把捕捉鸟兽的网打开一面；给鸟兽留一条生路。比喻采取宽大态度；给人一条生路。",
+        "prompt": "____",
+        "sort": "1",
+        "type": "2"
+      },
+      {
+        "mid": "480339",
+        "id": "3848",
+        "miniapp": "41",
+        "level": "24",
+        "answer": "先斩后奏",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-qfumhlko.png",
+        "prompt": "____",
+        "sort": "0",
+        "type": "1"
+      }
+    ],
+    "testFriendHost": "https://wq.maimaigou.com/app/index.php?i=41&t=0&v=1.0&from=wxapp&c=entry&a=wxapp&do=getShare&m=aaa_chengyu"
+  }
+}
+
+请求 11:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=pass&m=aaa_chengyu&sign=4585eb46337f91f032907cbaffe58788&level=24&passTime=19&code=0e1SUXll2uufef41m7nl2NIQmr0SUXlE
+  方法: GET
+  操作: pass
+  状态: 200
+  耗时: 220msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867397149,
+  "data": {
+    "code": 0,
+    "upgrade": false,
+    "gameLevelInfo": {
+      "level": 23,
+      "question": [
+        {
+          "mid": "477853",
+          "id": "7",
+          "miniapp": "41",
+          "level": "24",
+          "answer": "网开一面",
+          "explanation": "把捕捉鸟兽的网打开一面；给鸟兽留一条生路。比喻采取宽大态度；给人一条生路。",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190718-yyxerlhf.jpg",
+          "prompt": "____",
+          "sort": "1",
+          "type": "2",
+          "ts_create": "0",
+          "ts_update": "0"
+        },
+        {
+          "mid": "480339",
+          "id": "3848",
+          "miniapp": "41",
+          "level": "24",
+          "answer": "先斩后奏",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-qfumhlko.png",
+          "prompt": "____",
+          "sort": "0",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        }
+      ],
+      "testFriendHost": ""
+    },
+    "showOffType": "",
+    "idioms": [
+      "网开一面",
+      "先斩后奏"
+    ],
+    "dayPass": "1",
+    "tip": "再过1关即可升级土坯房",
+    "showOff": false,
+    "reward": []
+  }
+}
+
+请求 12:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=uploadFormId&m=aaa_chengyu&sign=b178a1addd94911e4d37e94975528379&formId=requestFormId%3Afail%20deprecated&userId=862647&ver=1.2.12
+  方法: GET
+  操作: uploadFormId
+  状态: 200
+  耗时: 67msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867398522,
+  "data": []
+}
+
+请求 13:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=uploadFormId&m=aaa_chengyu&sign=b178a1addd94911e4d37e94975528379&formId=requestFormId%3Afail%20deprecated&userId=862647&ver=1.2.12
+  方法: GET
+  操作: uploadFormId
+  状态: 200
+  耗时: 105msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867399121,
+  "data": []
+}
+
+请求 14:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=gameLevel&m=aaa_chengyu&sign=f970afcd4fb4f0721bdc0e5a187f7b3a&level=0&ver=1.2.12
+  方法: GET
+  操作: gameLevel
+  状态: 200
+  耗时: 79msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867399831,
+  "data": {
+    "level": 25,
+    "question": [
+      {
+        "mid": "480322",
+        "id": "3824",
+        "miniapp": "41",
+        "level": "25",
+        "answer": "乐在其中",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-aojhekcp.png",
+        "prompt": "____",
+        "sort": "1",
+        "type": "1"
+      },
+      {
+        "mid": "480327",
+        "id": "3830",
+        "miniapp": "41",
+        "level": "25",
+        "answer": "无名小卒",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-myeklkqe.png",
+        "prompt": "____",
+        "sort": "1",
+        "type": "1"
+      }
+    ],
+    "testFriendHost": "https://wq.maimaigou.com/app/index.php?i=41&t=0&v=1.0&from=wxapp&c=entry&a=wxapp&do=getShare&m=aaa_chengyu"
+  }
+}
+
+请求 15:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=gameLevel&m=aaa_chengyu&sign=f970afcd4fb4f0721bdc0e5a187f7b3a&level=0&ver=1.2.12
+  方法: GET
+  操作: gameLevel
+  状态: 200
+  耗时: 103msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867400425,
+  "data": {
+    "level": 25,
+    "question": [
+      {
+        "mid": "480322",
+        "id": "3824",
+        "miniapp": "41",
+        "level": "25",
+        "answer": "乐在其中",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-aojhekcp.png",
+        "prompt": "____",
+        "sort": "1",
+        "type": "1"
+      },
+      {
+        "mid": "480327",
+        "id": "3830",
+        "miniapp": "41",
+        "level": "25",
+        "answer": "无名小卒",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-myeklkqe.png",
+        "prompt": "____",
+        "sort": "1",
+        "type": "1"
+      }
+    ],
+    "testFriendHost": "https://wq.maimaigou.com/app/index.php?i=41&t=0&v=1.0&from=wxapp&c=entry&a=wxapp&do=getShare&m=aaa_chengyu"
+  }
+}
+
+请求 16:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=pass&m=aaa_chengyu&sign=4585eb46337f91f032907cbaffe58788&level=25&passTime=18&code=0f1nb01w3yXyx43Tou0w3URJXM0nb01A
+  方法: GET
+  操作: pass
+  状态: 200
+  耗时: 210msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867413351,
+  "data": {
+    "code": 0,
+    "upgrade": true,
+    "gameLevelInfo": {
+      "level": 24,
+      "question": [
+        {
+          "mid": "480322",
+          "id": "3824",
+          "miniapp": "41",
+          "level": "25",
+          "answer": "乐在其中",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-aojhekcp.png",
+          "prompt": "____",
+          "sort": "1",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        },
+        {
+          "mid": "480327",
+          "id": "3830",
+          "miniapp": "41",
+          "level": "25",
+          "answer": "无名小卒",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-myeklkqe.png",
+          "prompt": "____",
+          "sort": "1",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        }
+      ],
+      "testFriendHost": ""
+    },
+    "showOffType": "",
+    "idioms": [
+      "乐在其中",
+      "无名小卒"
+    ],
+    "dayPass": "1",
+    "tip": "再过5关即可升级驴车",
+    "showOff": false,
+    "reward": []
+  }
+}
+
+请求 17:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=uploadFormId&m=aaa_chengyu&sign=b178a1addd94911e4d37e94975528379&formId=requestFormId%3Afail%20deprecated&userId=862647&ver=1.2.12
+  方法: GET
+  操作: uploadFormId
+  状态: 200
+  耗时: 69msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867414579,
+  "data": []
+}
+
+请求 18:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=gameLevel&m=aaa_chengyu&sign=f970afcd4fb4f0721bdc0e5a187f7b3a&level=0&ver=1.2.12
+  方法: GET
+  操作: gameLevel
+  状态: 200
+  耗时: 155msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867415961,
+  "data": {
+    "level": 26,
+    "question": [
+      {
+        "mid": "480338",
+        "id": "3847",
+        "miniapp": "41",
+        "level": "26",
+        "answer": "叫苦连天",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-xbqtmlsy.png",
+        "prompt": "____",
+        "sort": "1",
+        "type": "1"
+      },
+      {
+        "mid": "480340",
+        "id": "3849",
+        "miniapp": "41",
+        "level": "26",
+        "answer": "猛虎出山",
+        "explanation": "",
+        "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-guhbssmn.png",
+        "prompt": "____",
+        "sort": "0",
+        "type": "1"
+      }
+    ],
+    "testFriendHost": "https://wq.maimaigou.com/app/index.php?i=41&t=0&v=1.0&from=wxapp&c=entry&a=wxapp&do=getShare&m=aaa_chengyu"
+  }
+}
+
+请求 19:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=uploadFormId&m=aaa_chengyu&sign=b178a1addd94911e4d37e94975528379&formId=requestFormId%3Afail%20deprecated&userId=862647&ver=1.2.12
+  方法: GET
+  操作: uploadFormId
+  状态: 200
+  耗时: 94msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867417401,
+  "data": []
+}
+
+请求 20:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=uploadFormId&m=aaa_chengyu&sign=b178a1addd94911e4d37e94975528379&formId=requestFormId%3Afail%20deprecated&userId=862647&ver=1.2.12
+  方法: GET
+  操作: uploadFormId
+  状态: 200
+  耗时: 69msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867418280,
+  "data": []
+}
+
+请求 21:
+  URL: https://wq.maimaigou.com/app/index.php?i=41&t=41&v=1.0.19&from=wxapp&c=entry&a=wxapp&do=pass&m=aaa_chengyu&sign=4585eb46337f91f032907cbaffe58788&level=26&passTime=27&code=0e1t3b0w3tXPx4360r0w3WXpjY0t3b0q
+  方法: GET
+  操作: pass
+  状态: 200
+  耗时: 343msms
+  响应数据:
+    {
+  "code": 0,
+  "msg": "成功",
+  "time": 1741867432369,
+  "data": {
+    "code": 0,
+    "upgrade": false,
+    "gameLevelInfo": {
+      "level": 25,
+      "question": [
+        {
+          "mid": "480338",
+          "id": "3847",
+          "miniapp": "41",
+          "level": "26",
+          "answer": "叫苦连天",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-xbqtmlsy.png",
+          "prompt": "____",
+          "sort": "1",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        },
+        {
+          "mid": "480340",
+          "id": "3849",
+          "miniapp": "41",
+          "level": "26",
+          "answer": "猛虎出山",
+          "explanation": "",
+          "path": "https://wq.maimaigou.com/addons/aaa_chengyu/resource/question/190731-guhbssmn.png",
+          "prompt": "____",
+          "sort": "0",
+          "type": "1",
+          "ts_create": "0",
+          "ts_update": "0"
+        }
+      ],
+      "testFriendHost": ""
+    },
+    "showOffType": "",
+    "idioms": [
+      "叫苦连天",
+      "猛虎出山"
+    ],
+    "dayPass": "1",
+    "tip": "再过4关即可升级驴车",
+    "showOff": false,
+    "reward": []
+  }
+}
